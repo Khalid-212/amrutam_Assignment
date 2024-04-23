@@ -1,0 +1,93 @@
+.findDoctorPage {
+  width: 80%;
+  margin: auto;
+}
+.findDoctorPageBody {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.specialization {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.specializationIcon > img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+.specializationIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: small;
+}
+.chips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.chip {
+  background: rgba(46, 55, 164, 0.04);
+  border-radius: 16px;
+  padding: 10px 20px;
+  color: #3a643b;
+  font-size: 16px;
+}
+.chipWhite {
+  background: #fff;
+  border-radius: 16px;
+  padding: 10px 15px;
+  color: #3a643b;
+  font-size: 16px;
+  border: 1px solid #e0dfdf;
+}
+.experienceHeading {
+  color: #3a643b;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding: 20px;
+}
+.experienceHeading > hr {
+  width: 70%;
+}
+.lineCard {
+  margin: 10px 0px;
+  height: 0.0001px;
+}
+.experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.experienceDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.experienceTime {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30%;
+  color: rgba(51, 53, 72, 0.801);
+  font-size: small;
+}
+.experienceTitle {
+  color: rgba(51, 53, 72, 0.801);
+  font-size: 15px;
+  text-align: left;
+}
+.findDoctorPageRight {
+  width: 50%;
+}

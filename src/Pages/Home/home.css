@@ -1,0 +1,11 @@
+.homeContent {
+  width: 80%;
+  margin: auto;
+}
+
+.doctors{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

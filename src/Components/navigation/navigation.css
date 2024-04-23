@@ -1,0 +1,44 @@
+.navigation {
+  background-color: #fff7e2;
+  width: 100%;
+  height: 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+.logo {
+  width: 25%;
+}
+.navItems {
+  display: flex;
+  width: 50%;
+  gap: 40px;
+}
+.navLink > * {
+  color: #474747;
+  text-decoration: none;
+  font-size: 20px;
+}
+.activeLink {
+  color: #3a643b !important;
+  font-weight: bold;
+}
+.buttons {
+  display: flex;
+  width: 25%;
+  gap: 20px;
+}
+.btn {
+  border: 1px solid #3a643b;
+  font-size: 20px;
+  padding: 10px;
+  color: #3a643b;
+  border-radius: 10px;
+  align-items: center;
+  min-width: 80px;
+}
+.primary {
+  background-color: #3a643b !important;
+  color: #ffff;
+}

@@ -1,0 +1,93 @@
+.headerTop {
+  background-image: url("../../Assets/headerBG.png");
+  width: 100%;
+  height: 220px;
+  border: 1px solid transparent;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header > p {
+  font-size: 32px;
+  color: #000000;
+}
+.search {
+  display: flex;
+  gap: 15px;
+  width: 40%;
+  /* border: 1px solid red; */
+  height: 40px;
+}
+.searchLocation {
+  background-color: #ffffff;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #d4d4d4;
+}
+.locationInput {
+  background-color: #ffffff;
+  border: none;
+  width: 70%;
+  color: #767676;
+}
+.searchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cdcdcd;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 8px;
+}
+.searchInput {
+  border: transparent;
+  width: 90%;
+  height: 100%;
+  padding: 10px;
+}
+.headerBottom {
+  background-color: #ffffff;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+.filters {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.filterSelector {
+  background-color: #f3f3f3;
+  border: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  width: 120px;
+}
+.filterSelectorAll {
+  background-color: #dceedc !important;
+}
+.filterChips {
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.chip {
+  background-color: #eaf2ea;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: small;
+}
+
+.chip:hover {
+  background-color: #d4ddd4;
+  cursor: pointer;
+}

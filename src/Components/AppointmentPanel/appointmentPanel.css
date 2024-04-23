@@ -1,0 +1,231 @@
+.appointmentPanel {
+  width: 100%;
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid #e0dfdf;
+  margin: 50px 0px;
+}
+
+.appointmentFeeCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid #e0dfdf;
+  margin: 20px 0px;
+}
+
+.appointmentFeeTitle {
+  font-size: 20px;
+}
+
+.appointmentFeeAmount {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3a643b;
+}
+
+.modeOfSession {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 18px;
+  margin: 20px 0px;
+}
+
+.modeOfSessionTitle {
+  display: flex;
+  gap: 10px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.modeOfSessionTitle > hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e0dfdf;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+}
+
+.modeOfSessionTypes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modeOfSessionType {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e0dfdf;
+  border-radius: 10px;
+  margin: 30px 0px;
+  gap: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modeOfSessionType:hover {
+  background-color: #f2fbf2;
+}
+
+.modeOfSessionType.selected {
+  background-color: #f2fbf2;
+}
+
+.modeOfSessionName {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3a643b;
+}
+
+.modeOfSessionTime {
+  font-size: 14px;
+  color: #606060;
+}
+
+.sessionDateTitle {
+  display: flex;
+  font-size: medium;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sessionDateTitle > hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e0dfdf;
+  margin: auto;
+  padding: 0;
+  width: 60%;
+}
+
+.sessionDatePickerCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0px;
+  border: 1px solid #e0dfdf;
+  border-radius: 18px;
+  padding: 20px;
+}
+.sessionDatePickerArrowLeft,
+.sessionDatePickerArrowRight {
+  width: 20px;
+  height: 20px;
+  color: #808080;
+  border: 1px solid #808080;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sessionDatePickerDateCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0dfdf;
+  padding: 15px;
+  gap: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sessionDatePickerDateCard:hover {
+  background-color: #f2fbf2;
+}
+
+.sessionDatePickerDateCard.selected {
+  background: #f2fbf2;
+}
+
+.sessionDatePickerDateCard > .sessionDatePickerDate {
+  color: #3a643b;
+  font-weight: bold;
+}
+
+.sessionDatePickerDateCard > .sessionDatePickerSlots {
+  color: #808080;
+}
+
+.sessionDatePickerDate {
+  font-size: medium;
+}
+
+.sessionDatePickerSlots {
+  font-size: 16px;
+  color: #e0dfdf;
+}
+
+.sessionTimePicker {
+  margin: 30px 0px;
+}
+
+.sessionTimePicker > p {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  font-weight: bold;
+  text-align: left;
+}
+
+.sessionTimeCards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.sessionTimeCard.selected {
+  background-color: #f2fbf2;
+}
+
+.sessionTimeCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 15px;
+  border-radius: 18px;
+  border: 1px solid #e0dfdf;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sessionTimeCard:hover {
+  background-color: #f2fbf2;
+}
+
+.appointmentBtn {
+  width: 70%;
+  padding: 20px;
+  border-radius: 18px;
+  background: #3a643b;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.appointmentBtn:hover {
+  background-color: #2c522c;
+}
+
+.appointmentBtn:active {
+  background-color: #39614c;
+}

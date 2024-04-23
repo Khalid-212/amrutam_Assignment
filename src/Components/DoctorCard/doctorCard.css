@@ -1,0 +1,76 @@
+.doctorCard {
+  background-color: #fff7e2;
+  width: 300px;
+  height: 470px;
+  border-radius: 30px;
+  padding: 50px 30px;
+}
+.name {
+  font-size: 28px;
+  font-weight: bold;
+}
+.details {
+  font-size: 16px;
+  color: #646665;
+  margin: 10px auto;
+  width: 90%;
+  text-align: left;
+  gap: 10px;
+}
+.services {
+  display: flex;
+  justify-content: center;
+}
+.serviceType {
+  padding: 10px;
+  border: 1px solid #646665;
+  border-radius: 8px;
+  margin: 5px;
+  font-size: 14px;
+}
+.serviceType > div {
+  color: #3a643b;
+}
+
+.cardButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cardButton {
+  background-color: #ffffff;
+  border: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #3a643b;
+  color: #3a643b;
+}
+.cardButtonPrimary {
+  background-color: #3a643b;
+  color: #ffffff;
+}
+.doctorCard:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.cardButton:hover {
+  background-color: #fffcfc;
+  border: 1.5px solid #3a643b;
+}
+.cardButtonPrimary:hover {
+  background-color: #3a643b;
+  color: #ffffff;
+}
+.cardButton:active {
+  background-color: rgb(246, 247, 246);
+}
+.cardButtonPrimary:active {
+  background-color: #417342;
+  color: #ffffff;
+}
+
+.cardButtons > * {
+  text-decoration: none;
+}
