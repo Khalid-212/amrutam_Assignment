@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import "./header.css";
 import locationIcon from "../../Assets/location.png";
 import leftArrow from "../../Assets/leftArrow.png";
 
 function Header() {
+  const [chips, setChips] = useState([
+    "Hair Care",
+    "Female",
+    "Rs.0-Rs.500",
+    "Hindi",
+  ]);
+  const removeChip = (chip) => {
+    const updatedChips = chips.filter((item) => item !== chip);
+    setChips(updatedChips);
+  };
+
   return (
     <div className="header">
       <div className="headerTop">
@@ -72,10 +83,13 @@ function Header() {
         </div>
       </div>
       <div className="filterChips">
-        <div className="chip">Hair care X</div>
-        <div className="chip">Hair care X</div>
-        <div className="chip">Hair care X</div>
-        <div className="chip">Hair care X</div>
+        {chips.map((chip, index) => {
+          return (
+            <div key={index} onClick={() => removeChip(chip)} className="chip">
+              {chip + " X"}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

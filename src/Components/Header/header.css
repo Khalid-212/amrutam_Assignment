@@ -34,6 +34,7 @@
   border: none;
   width: 70%;
   color: #767676;
+  outline: none;
 }
 .searchBox {
   display: flex;
@@ -49,6 +50,7 @@
   width: 90%;
   height: 100%;
   padding: 10px;
+  outline: none;
 }
 .headerBottom {
   background-color: #ffffff;
@@ -67,6 +69,7 @@
   padding: 10px;
   border-radius: 8px;
   width: 120px;
+  outline: none;
 }
 .filterSelectorAll {
   background-color: #dceedc !important;
